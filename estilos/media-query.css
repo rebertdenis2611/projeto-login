@@ -11,6 +11,10 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+    main{
+        background: linear-gradient(to top, #9140D6, #0060E0);
+    }
+    
     section#login{
         width: 768px;
     }
@@ -30,6 +34,11 @@ Grandes telas: acima de 1200px
 
 
 @media screen and (min-width: 1200px) {
+    main{
+        background: linear-gradient(to top, #9140D6, #0060E0);
+    }
+
+
     section#login{
         width: 768px;
     }
