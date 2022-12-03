@@ -38,7 +38,7 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    height: 600px;
+    height: 550px;
     width: 300px;
     border-radius: 20px;
 }
@@ -65,6 +65,8 @@ section#login > div#formulario p{
 div.informacao{
     background-color: var(--cor02);
     border-radius: 10px;
+    border: 5px solid var(--cor02);
+    margin-bottom: 5px;
 }
 
 div.informacao > span{
@@ -73,11 +75,18 @@ div.informacao > span{
 }
 
 div.informacao input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     width: calc(100% - 37px);
     transform: translateY(-4px);
     height: 40px;
     border: 0px;
     border-radius: 10px;
+    padding-left: 10px;
+}
+
+div.informacao input:hover{
+    border: 10px;
 }
 
 div.informacao label{
@@ -112,4 +121,9 @@ div#esqsenha{
 div#esqsenha a{
     color: white;
     text-decoration: none;
+    font-size: 1.2em;
+    vertical-align: top;
+}
+
+div#esqsenha span{
 }

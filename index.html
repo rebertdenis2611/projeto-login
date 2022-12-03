@@ -21,17 +21,18 @@
                     <p>Bem vindo(a) ao nosso sistema, faça o login e desfrute de nosso técnologia.</p>
                     <div class="informacao">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="email" id="iemail">
+                        <input type="email" name="email" id="iemail" autocomplete="email" required>
                         <label for="iemail">Nome: </label>
                     </div>
                     <div class="informacao">
-                        <span class="material-symbols-outlined">mail</span>
-                        <input type="password" name="senha" id="isenha">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="6">
                         <label for="isenha">Senha: </label>
                     </div>
                     <input type="submit" value="Entrar">
                     <div id="esqsenha">
-                            <a href="#">Esqueci a senha</a>
+                        <a href="#">Esqueci a senha</a>
+                        <span class="material-symbols-outlined">mail</span>
                     </div>
                 </form>
             </div>
